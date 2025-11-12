@@ -1,0 +1,5 @@
+{
+  "name": "Idle Notification Manager",
+  "description": "An application to create and manage automated follow-up messages and actions based on idle time in conversations. Users can define triggers, select channels, and configure actions like sending AI-generated messages or calling webhooks to optimize workflow and prevent stalled conversations.",
+  "requestFramePermissions": []
+}
