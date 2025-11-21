@@ -21,6 +21,7 @@ const initialFollowUps: FollowUp[] = [
 
 const App: React.FC = () => {
   const [followUps, setFollowUps] = useState<FollowUp[]>(initialFollowUps);
+  console.log('Current followUps:', followUps);
   const [currentView, setCurrentView] = useState<'list' | 'form'>('list');
   const [editingFollowUp, setEditingFollowUp] = useState<FollowUp | null>(null);
 
@@ -43,7 +44,7 @@ const App: React.FC = () => {
     setCurrentView('list');
     setEditingFollowUp(null);
   };
-  
+
   const handleCancel = () => {
     setCurrentView('list');
     setEditingFollowUp(null);
